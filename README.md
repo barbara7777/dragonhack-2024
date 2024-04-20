@@ -1,9 +1,8 @@
 # dragonhack-2024
 
-
+![Logo](./src/media/logo_small.png)
 
 # SETUP
-
 install `requirements.txt` by running:
 ```bash
 pip install -r requirements.txt
