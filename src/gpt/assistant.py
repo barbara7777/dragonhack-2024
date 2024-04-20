@@ -1,5 +1,30 @@
-# create an appi call to the OPENAI API
-# and return the response
-def ask_openai(question: str) -> str:
-    # TODO
-    return "I am a placeholder for the OpenAI API call"
+from openai import OpenAI
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TOKEN = os.getenv('GPT_API_KEY')
+BASE_URL = "https://openai-proxy.sellestial.com/api"
+
+
+def ask_openai(prompt: str, system_prompt=None) -> str:
+    client = OpenAI(api_key=TOKEN, base_url=BASE_URL)
+
+    messages = []
+    if system_prompt:
+        message = {"role": "system", "content": system_prompt}
+        messages.append(message)
+
+    messages.append({"role": "user", "content": prompt})
+
+    completion = client.chat.completions.create(
+        model="gpt-4-turbo",
+        messages=messages
+    )
+
+    return completion.choices[0].message.content
+
+
+if __name__ == "__main__":
+    ask_openai("What is recursion in programming?")
