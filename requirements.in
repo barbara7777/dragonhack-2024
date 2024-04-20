@@ -1,3 +1,6 @@
 openai
 poetry
 python-dotenv
+pydantic
+fastapi
+uvicorn[standard]
