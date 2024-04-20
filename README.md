@@ -4,10 +4,10 @@
 
 ## Description
 
-MakeItWork is a fun and exciting platform that helps you **improve your skills and build your career**.
+MakeItWork is a fun and exciting platform that helps you **improve your skills and build your career** using a **gamified approach**.
 
 It is designed to provide **guidance** and **individualized support** with tailored learning paths to help you reach your career goals.
-MakeItWork makes steps towards your career goals easy and fun.
+MakeItWork makes steps towards your career goals easy and fun, offering a unique blend of gamification and personalized learning experiences.
 
 
 ## How to
