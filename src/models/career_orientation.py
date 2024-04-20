@@ -1,5 +1,6 @@
 from pydantic import BaseModel
-from constraints import CareerOrientationCategory
+
+from models.constraints import CareerOrientationCategory
 
 
 class CareerOrientationModel(BaseModel):
