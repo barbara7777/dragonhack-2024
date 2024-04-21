@@ -1,6 +1,6 @@
 openai
-poetry
 python-dotenv
 pydantic
 fastapi
+requests
 uvicorn[standard]

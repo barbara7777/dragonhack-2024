@@ -27,4 +27,8 @@ def ask_openai(prompt: str, system_prompt=None) -> str:
 
 
 if __name__ == "__main__":
-    ask_openai("What is recursion in programming?")
+    # test the function
+    prompt = '''
+    What is DragonHack?
+    '''
+    print(ask_openai(prompt))

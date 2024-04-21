@@ -57,7 +57,7 @@ users = [
                 title="Education",
                 description="Build up knowledge base and widen horizons",
                 progress=9,
-                reward=None,
+                reward=0,
                 is_completed=False,
                 is_active=True
             ),
@@ -66,7 +66,7 @@ users = [
                 title="Soft Skills",
                 description="Polish essential soft skills through practical, interactive exercises",
                 progress=3,
-                reward=None,
+                reward=0,
                 is_completed=False,
                 is_active=True
             ),
@@ -75,7 +75,7 @@ users = [
                 title="Career",
                 description="Explore potential career paths and skills through interactive experiences",
                 progress=0,
-                reward=None,
+                reward=0,
                 is_completed=False,
                 is_active=False
             ),
@@ -90,5 +90,6 @@ users = [
     )
 ]
 
-def get_user(username: str) -> UserModel:
+
+def get_user() -> UserModel:
     return users[0]
