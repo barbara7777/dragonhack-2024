@@ -47,5 +47,6 @@ uvicorn src.api.app:app --reload
 ## Growth potential
 1. **Endless opportunities** for courses, exercises, and learning paths.
 2. The app could allow companies or personal advisors to **set up customized learning journeys** for their employees.
-3. In addition to career advancement, the app could emphasize teaching other things like **sustainable practices**, fostering holistic development.
+3. User could easily **export their profile** with information about their achievements.
+4. In addition to career advancement, the app could emphasize teaching other things like **sustainable practices**, fostering holistic development.
 
