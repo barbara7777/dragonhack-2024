@@ -36,20 +36,25 @@ MakeItWork makes steps towards your career goals easy and fun, offering a unique
 
 ## Setup
 
+### Backend
+
 install `requirements.txt` by running:
 ```bash
 pip install -r requirements.txt
 ```
 
-### Environment variables
+#### Environment variables
 you need the next keys stored in the environment variables in order to get all the functionalities working properly:
 - GPT_API_KEY
 - MONGODB_PASSWORD
 - SCORE_MY_RESUME_API_TOKEN
 
-### To run the server
+#### To run the server
 In the terminal (from the dragonhack-2024 directory), run:
 
 ```bash
 uvicorn src.api.app:app --reload
 ```
+
+### Frontend
+Consult the README.md in the `frontend` directory for details on how to run the frontend.
