@@ -42,3 +42,10 @@ uvicorn src.api.app:app --reload
 
 
 ## Infrastructure
+
+
+## Growth potential
+1. **Endless opportunities** for courses, exercises, and learning paths.
+2. The app could allow companies or personal advisors to **set up customized learning journeys** for their employees.
+3. In addition to career advancement, the app could emphasize teaching other things like **sustainable practices**, fostering holistic development.
+
