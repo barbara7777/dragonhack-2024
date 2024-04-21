@@ -24,7 +24,8 @@ MakeItWork makes steps towards your career goals easy and fun, offering a unique
 
 
 ## Infrastructure
-![infrastructure](./src/media/dragonhack-schema.png)
+
+![infrastructure](./src/media/dragonhack_schema.png)
 
 
 ## Growth potential
