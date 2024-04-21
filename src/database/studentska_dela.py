@@ -3,10 +3,13 @@ from bs4 import BeautifulSoup
 import re
 import numpy as np
 
+"""
+Scrape the Študentski servis website and extract basic info about jobs. 
+"""
 
-def extract_job_info(job):
+def extract_job_info(job) -> dict[str, str]:
     """
-    Extracts info about one job
+    Extracts info about one job.
     """
 
     job_info = {}
@@ -44,9 +47,9 @@ def extract_job_info(job):
     return job_info
 
 
-def jobs(page_number):
+def jobs(page_number: int) -> dict[str, dict[str, str]]:
     """
-    Extracts info about all jobs on one page
+    Extracts info about all jobs on one page.
     """
 
     if page_number == 0:
@@ -77,7 +80,7 @@ def jobs(page_number):
 
     return all_jobs
 
-def merge_pages(page_numbers):
+def merge_pages(page_numbers: int) -> dict[str, dict[str, str]]:
     """
     Joins info about jobs for multiple pages. 
     """
