@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import {Auth0Provider} from "@auth0/auth0-react";
-import {BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Article from "./Article.tsx";
 import Home from "./Home.tsx";
 import SkillPath from "./SkillPath.tsx";
@@ -36,7 +36,6 @@ import Intro6 from "./Intro6.tsx";
 // ]);
 
 
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <Auth0Provider
         domain="dev-wwe8t6xg5rwq2vk8.eu.auth0.com"
@@ -47,20 +46,20 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     >
         <BrowserRouter>
             <Routes>
-                <Route path="/intro" element={<Intro1 />} />
-                <Route path="/intro2" element={<Intro2 />} />
-                <Route path="/intro3" element={<Intro3 />} />
-                <Route path="/intro4" element={<Intro4 />} />
-                <Route path="/intro5" element={<Intro5 />} />
-                <Route path="/intro6" element={<Intro6 />} />
+                <Route path="/intro" element={<Intro1/>}/>
+                <Route path="/intro2" element={<Intro2/>}/>
+                <Route path="/intro3" element={<Intro3/>}/>
+                <Route path="/intro4" element={<Intro4/>}/>
+                <Route path="/intro5" element={<Intro5/>}/>
+                <Route path="/intro6" element={<Intro6/>}/>
 
-                <Route path="/" element={<App />}>
-                    <Route path="" element={<Home />} />
-                    <Route path="task" element={<Article />} />
-                    <Route path="path" element={<SkillPath />} />
-                    <Route path="cv" element={<CV />} />
-                    <Route path="career" element={<Career />} />
-                    <Route path="profile" element={<Profile />} />
+                <Route path="/" element={<App/>}>
+                    <Route path="" element={<Home/>}/>
+                    <Route path="task" element={<Article/>}/>
+                    <Route path="path" element={<SkillPath/>}/>
+                    <Route path="cv" element={<CV/>}/>
+                    <Route path="career" element={<Career/>}/>
+                    <Route path="profile" element={<Profile/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

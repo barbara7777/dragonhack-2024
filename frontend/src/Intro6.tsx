@@ -1,8 +1,5 @@
-import Header from "./Header.tsx";
-import {Link, Outlet} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {useState} from "react";
-
-import ArrowRight from "./assets/arrowRight.svg";
 
 function TextInput({title}) {
     return (
@@ -39,7 +36,8 @@ export default function Intro6() {
 
                     <Link to="/"
                           className="text-2xl shadow-xl hover:shadow-2xl    font-bold text-purple-700  py-4 px-12 rounded-full hover:cursor-pointer bg-white hover:bg-gray-100">
-                        <span className="bg-gradient-to-r from-[#3FABD0] via-[#93E2DC] to-[#BFD7FC] text-transparent bg-clip-text">Let's start!</span>
+                        <span
+                            className="bg-gradient-to-r from-[#3FABD0] via-[#93E2DC] to-[#BFD7FC] text-transparent bg-clip-text">Let's start!</span>
                     </Link>
                 </div>
             </div>

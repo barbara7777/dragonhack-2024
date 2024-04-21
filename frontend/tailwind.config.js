@@ -17,7 +17,8 @@ export default {
         'mt-1',
         'ring-lime-200',
         'ring-gray-200',
-        'ring-8'
+        'ring-8',
+        'animate-bounce'
     ]
 }
 

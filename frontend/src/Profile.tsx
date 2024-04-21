@@ -1,14 +1,6 @@
 export default function Profile() {
-    const skills = [
-        "React",
-        "Team Leading",
-        "Node.js",
-        "Python",
-        "Teamwork",
-        "Docker"
-    ]
     return (
-        <div className="grow flex flex-col p-8 gap-8">
+        <div className="grow flex flex-col pt-12 gap-8">
 
             {/*/!* Osnovna kartica *!/*/}
             {/*<div className="flex flex-row gap-8">*/}

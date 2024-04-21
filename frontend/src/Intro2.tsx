@@ -1,7 +1,7 @@
-import Header from "./Header.tsx";
-import {Link, Outlet} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import ArrowRight from './assets/arrowRight.svg'
+import ArrowLeft from './assets/arrowLeft.svg'
 
 function TextInput({title}) {
     return (
@@ -43,12 +43,14 @@ export default function Intro2() {
 
                     <div className="flex flex-row gap-4 w-full">
 
-                        <Link to="/intro" className="  py-4 px-12 hover:cursor-pointer 1/4">
-                            <img src={ArrowRight} className="" />
+                        <Link to="/intro"
+                              className="  py-4 px-2 flex items-center text-center justify-center hover:cursor-pointer basis-1/4">
+                            <img src={ArrowLeft} className=""/>
                         </Link>
 
-                        <Link to="/intro3" className="text-2xl shadow-xl hover:shadow-2xl    font-bold text-purple-700  py-4 px-12 rounded-full hover:cursor-pointer bg-white hover:bg-gray-100">
-                            <img src={ArrowRight} />
+                        <Link to="/intro3"
+                              className="text-2xl flex justify-center shadow-xl hover:shadow-2xl  basis-3/4  font-bold text-purple-700  py-4 px-12 rounded-full hover:cursor-pointer bg-white hover:bg-gray-100">
+                            <img src={ArrowRight}/>
                         </Link>
                     </div>
 
