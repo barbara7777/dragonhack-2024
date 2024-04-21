@@ -20,28 +20,11 @@ MakeItWork makes steps towards your career goals easy and fun, offering a unique
 6. Have fun and collect trophies while paving **your path to success**
 
 ![start_screen](./src/media/start_small.gif)&emsp;&emsp;&emsp;&emsp;![path](./src/media/path.gif)
-## Setup
-
-install `requirements.txt` by running:
-```bash
-pip install -r requirements.txt
-```
-
-### Environment variables
-you need the next keys stored in the environment variables:
-- GPT_API_KEY
-- MONGODB_PASSWORD
-
-### To run the server
-In the terminal (from the dragonhack-2024 directory), run:
-
-```bash
-uvicorn src.api.app:app --reload
-```
 
 
 
 ## Infrastructure
+![infrastructure](./src/media/dragonhack-schema.png)
 
 
 ## Growth potential
@@ -50,3 +33,22 @@ uvicorn src.api.app:app --reload
 3. User could easily **export their profile** with information about their achievements.
 4. In addition to career advancement, the app could emphasize teaching other things like **sustainable practices**, fostering holistic development.
 
+## Setup
+
+install `requirements.txt` by running:
+```bash
+pip install -r requirements.txt
+```
+
+### Environment variables
+you need the next keys stored in the environment variables in order to get all the functionalities working properly:
+- GPT_API_KEY
+- MONGODB_PASSWORD
+- SCORE_MY_RESUME_API_TOKEN
+
+### To run the server
+In the terminal (from the dragonhack-2024 directory), run:
+
+```bash
+uvicorn src.api.app:app --reload
+```
