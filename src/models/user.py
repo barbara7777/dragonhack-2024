@@ -1,6 +1,6 @@
 from pydantic import BaseModel
-from src.quests import QuestModel
-from src.career_orientation import CareerOrientationModel
+from src.models.quests import QuestModel
+from src.models.career_orientation import CareerOrientationModel
 
 
 class UserModel(BaseModel):
@@ -8,6 +8,6 @@ class UserModel(BaseModel):
     email: str
     name: str
     surname: str
-    quests: dict[QuestModel]
+    quests: list[QuestModel]
     career: CareerOrientationModel
     cv: str

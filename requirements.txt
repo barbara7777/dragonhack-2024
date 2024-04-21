@@ -12,41 +12,19 @@ anyio==4.3.0
     #   openai
     #   starlette
     #   watchfiles
-build==1.2.1
-    # via poetry
-cachecontrol[filecache]==0.14.0
-    # via poetry
 certifi==2024.2.2
     # via
     #   httpcore
     #   httpx
     #   requests
-cffi==1.16.0
-    # via xattr
 charset-normalizer==3.3.2
     # via requests
-cleo==2.1.0
-    # via poetry
 click==8.1.7
     # via uvicorn
-crashtest==0.4.1
-    # via
-    #   cleo
-    #   poetry
-distlib==0.3.8
-    # via virtualenv
 distro==1.9.0
     # via openai
-dulwich==0.21.7
-    # via poetry
 fastapi==0.110.2
     # via -r requirements.in
-fastjsonschema==2.19.1
-    # via poetry
-filelock==3.13.4
-    # via
-    #   cachecontrol
-    #   virtualenv
 h11==0.14.0
     # via
     #   httpcore
@@ -62,44 +40,8 @@ idna==3.7
     #   anyio
     #   httpx
     #   requests
-installer==0.7.0
-    # via poetry
-jaraco-classes==3.4.0
-    # via keyring
-keyring==24.3.1
-    # via poetry
-more-itertools==10.2.0
-    # via jaraco-classes
-msgpack==1.0.8
-    # via cachecontrol
 openai==1.23.2
     # via -r requirements.in
-packaging==24.0
-    # via
-    #   build
-    #   poetry
-pexpect==4.9.0
-    # via poetry
-pkginfo==1.10.0
-    # via poetry
-platformdirs==4.2.0
-    # via
-    #   poetry
-    #   virtualenv
-poetry==1.8.2
-    # via
-    #   -r requirements.in
-    #   poetry-plugin-export
-poetry-core==1.9.0
-    # via
-    #   poetry
-    #   poetry-plugin-export
-poetry-plugin-export==1.7.1
-    # via poetry
-ptyprocess==0.7.0
-    # via pexpect
-pycparser==2.22
-    # via cffi
 pydantic==2.7.0
     # via
     #   -r requirements.in
@@ -107,27 +49,14 @@ pydantic==2.7.0
     #   openai
 pydantic-core==2.18.1
     # via pydantic
-pyproject-hooks==1.0.0
-    # via
-    #   build
-    #   poetry
 python-dotenv==1.0.1
     # via
     #   -r requirements.in
     #   uvicorn
 pyyaml==6.0.1
     # via uvicorn
-rapidfuzz==3.8.1
-    # via cleo
 requests==2.31.0
-    # via
-    #   cachecontrol
-    #   poetry
-    #   requests-toolbelt
-requests-toolbelt==1.0.0
-    # via poetry
-shellingham==1.5.4
-    # via poetry
+    # via -r requirements.in
 sniffio==1.3.1
     # via
     #   anyio
@@ -135,12 +64,8 @@ sniffio==1.3.1
     #   openai
 starlette==0.37.2
     # via fastapi
-tomlkit==0.12.4
-    # via poetry
 tqdm==4.66.2
     # via openai
-trove-classifiers==2024.4.10
-    # via poetry
 typing-extensions==4.11.0
     # via
     #   fastapi
@@ -148,18 +73,12 @@ typing-extensions==4.11.0
     #   pydantic
     #   pydantic-core
 urllib3==2.2.1
-    # via
-    #   dulwich
-    #   requests
+    # via requests
 uvicorn[standard]==0.29.0
     # via -r requirements.in
 uvloop==0.19.0
     # via uvicorn
-virtualenv==20.25.3
-    # via poetry
 watchfiles==0.21.0
     # via uvicorn
 websockets==12.0
     # via uvicorn
-xattr==1.1.0
-    # via poetry
