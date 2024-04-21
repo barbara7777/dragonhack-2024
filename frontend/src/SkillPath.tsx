@@ -1,5 +1,5 @@
-import Award from "./assets/award.svg"
-import Document from "./assets/document.svg"
+import Award from "./assets/skill4.svg"
+import Document from "./assets/skill5.svg"
 import {Link} from "react-router-dom";
 import {useState} from "react";
 

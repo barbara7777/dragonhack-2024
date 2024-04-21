@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
@@ -16,24 +15,6 @@ import Intro5 from "./Intro5.tsx";
 import CV from "./CV.tsx";
 import Career from "./Career.tsx";
 import Intro6 from "./Intro6.tsx";
-
-
-// const router = createBrowserRouter([
-//     {
-//         path: "/",
-//         element: <App />,
-//         children: [
-//             {
-//                 path: "",
-//                 element: <Home />
-//             },
-//             {
-//                 path: "task",
-//                 element: <Article />
-//             },
-//         ]
-//     }
-// ]);
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
