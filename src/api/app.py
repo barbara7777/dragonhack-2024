@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from src.gpt.prompt_factory import check_cv
 from src.models.user import UserModel
-from database.data import get_user
+from src.database.data import get_user
 
 app = FastAPI()
 
@@ -19,4 +19,5 @@ async def profile() -> str:
 @app.get("/profile/cv/check")
 async def check_users_cv() -> str:
     user: UserModel = get_user()
-    return check_cv(user.cv)
+    user_cv = upload_cv(user.cv)
+    return check_cv(user_cv)

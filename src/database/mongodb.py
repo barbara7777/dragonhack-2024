@@ -1,8 +1,7 @@
-
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
 import os
 from dotenv import load_dotenv
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 
 from studentska_dela import all_jobs
 

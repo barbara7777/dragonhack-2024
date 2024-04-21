@@ -1,7 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import re
-import numpy as np
 
 """
 Scrape the Študentski servis website and extract basic info about jobs. 

@@ -19,9 +19,7 @@ MakeItWork makes steps towards your career goals easy and fun, offering a unique
 5. You get constant feedback and support
 6. Have fun and collect trophies while paving **your path to success**
 
-![start_screen](./src/media/start_small.gif)&emsp;&emsp;&emsp;&emsp;![path](./src/media/path.gif)
-
-
+![user_flow](./src/media/user_flow.gif)
 
 ## Infrastructure
 

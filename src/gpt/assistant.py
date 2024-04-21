@@ -9,6 +9,9 @@ BASE_URL = "https://openai-proxy.sellestial.com/api"
 
 
 def ask_openai(prompt: str, system_prompt=None) -> str:
+    """
+    Ask OpenAI for a response to the prompt.
+    """
     client = OpenAI(api_key=TOKEN, base_url=BASE_URL)
 
     messages = []
